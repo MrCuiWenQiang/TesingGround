@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="dialog_margin_vertical" format="dimension"/>
+    <attr name="dialog_padding_horizontal" format="dimension"/>
+
+    <attr name="dialog_message_textsize" format="dimension"/>
+    <attr name="dialog_content_select" format="reference"/>
+    <attr name="dialog_message_color_gray" format="color"/>
+    <attr name="dialog_content_padding_top" format="dimension"/>
+    <attr name="dialog_content_padding_notitle_top" format="dimension"/>
+    <attr name="dialog_content_padding_bottom" format="dimension"/>
+    <attr name="dialog_content_padding_left" format="dimension"/>
+    <attr name="dialog_content_padding_right" format="dimension"/>
+    <attr name="dialog_list_item_bg_with_border_none" format="reference"/>
+    <attr name="dialog_menu_item_text_color" format="color"/>
+    <attr name="dialog_content_list_item_text_size" format="dimension"/>
+    <attr name="dialog_content_list_item_select" format="reference"/>
+    <attr name="dialog_menu_item_check_icon_margin_horizontal" format="dimension"/>
+    <attr name="dialog_content_list_item_height" format="dimension"/>
+    <attr name="dialog_content_padding_top_when_list" format="dimension"/>
+    <attr name="dialog_content_padding_bottom_when_no_action" format="dimension"/>
+    <attr name="dialog_check_mark" format="reference"/>
+
+    <attr name="dialog_title_color_black" format="color"/>
+    <attr name="dialog_title_textsize" format="dimension"/>
+    <attr name="dialog_title_margin_top" format="dimension"/>
+
+    <attr name="dialog_action_container_margin_bottom" format="dimension"/>
+    <attr name="dialog_action_button_text_size" format="dimension"/>
+    <attr name="dialog_action_text_color" format="reference"/>
+    <attr name="dialog_action_text_negative_color" format="reference"/>
+
+</resources>
