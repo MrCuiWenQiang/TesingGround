@@ -5,8 +5,8 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.wtl.right.activity.BaseToolBarActivity;
-import com.wtl.right.widget.builderdialog.DialogAction;
-import com.wtl.right.widget.builderdialog.MyDialog;
+import com.wtl.right.widget.dialog.DialogAction;
+import com.wtl.right.widget.dialog.MyDialog;
 
 public class MainActivity extends BaseToolBarActivity {
 

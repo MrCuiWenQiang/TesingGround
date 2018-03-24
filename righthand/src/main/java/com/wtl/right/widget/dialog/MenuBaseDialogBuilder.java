@@ -1,4 +1,4 @@
-package com.wtl.right.widget.builderdialog;
+package com.wtl.right.widget.dialog;
 
 import android.content.Context;
 import android.content.DialogInterface;
