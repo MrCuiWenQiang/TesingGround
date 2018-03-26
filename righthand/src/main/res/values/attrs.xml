@@ -20,6 +20,7 @@
     <attr name="dialog_content_padding_top_when_list" format="dimension"/>
     <attr name="dialog_content_padding_bottom_when_no_action" format="dimension"/>
     <attr name="dialog_check_mark" format="reference"/>
+    <attr name="content_spacing_horizontal" format="dimension"/>
 
     <attr name="dialog_title_color_black" format="color"/>
     <attr name="dialog_title_textsize" format="dimension"/>

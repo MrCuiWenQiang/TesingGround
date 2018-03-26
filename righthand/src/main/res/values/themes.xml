@@ -35,6 +35,8 @@
         <item name="dialog_action_text_negative_color">@color/dg_action_text_negative_color</item>
         <item name="dialog_check_mark">@drawable/dg_checkbox</item>
 
+        <item name="content_spacing_horizontal">16dp</item>
+
     </style>
 
 </resources>
