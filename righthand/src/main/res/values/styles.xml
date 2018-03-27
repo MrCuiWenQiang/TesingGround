@@ -52,4 +52,9 @@
         <item name="android:paddingBottom">12dp</item>
         <item name="android:background">@drawable/dg_tip_bg</item>
     </style>
+    
+    <style name="bottom_dialog_anim">
+        <item name="android:windowExitAnimation">@anim/bottomseet_dialog_exit</item>
+        <item name="android:windowEnterAnimation">@anim/bottomseet_dialog_enter</item>
+    </style>
 </resources>

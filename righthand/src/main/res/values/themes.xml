@@ -28,6 +28,7 @@
         <item name="dialog_content_list_item_height">48dp</item>
         <item name="dialog_content_padding_top_when_list">28dp</item>
         <item name="dialog_content_padding_bottom_when_no_action">8dp</item>
+        <item name="bottom_sheet_list_item_text_appearance">@style/TextAppearance.ListItem</item>
 
         <item name="dialog_action_container_margin_bottom">12dp</item>
         <item name="dialog_action_button_text_size">14dp</item>
@@ -36,6 +37,7 @@
         <item name="dialog_check_mark">@drawable/dg_checkbox</item>
 
         <item name="content_spacing_horizontal">16dp</item>
+        <item name="bottom_sheet_list_item_bg">@drawable/list_item_bg_with_border_bottom</item>
 
     </style>
 
