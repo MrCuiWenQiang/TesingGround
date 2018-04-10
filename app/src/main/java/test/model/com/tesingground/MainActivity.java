@@ -1,15 +1,14 @@
 package test.model.com.tesingground;
 
-import android.content.DialogInterface;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import com.wtl.right.activity.BaseToolBarActivity;
-import com.wtl.right.widget.dialog.DialogAction;
-import com.wtl.right.widget.dialog.MyDialog;
-import com.wtl.right.widget.dialog.TipDialog;
+import com.wtl.right.widget.FragmentPagerAdapter;
+
+import java.util.ArrayList;
 
 public class MainActivity extends BaseToolBarActivity {
 
@@ -28,13 +27,20 @@ public class MainActivity extends BaseToolBarActivity {
 
     @Override
     protected void initData(Bundle savedInstanceState) {
+        ViewPager viewpager = findViewById(R.id.viewpager);
+        ArrayList<Object> fragments = new ArrayList<>();
+        fragments.add(new Fragmentdemo());
+        fragments.add(new Fragmentdemo());
+        fragments.add(new Fragmentdemo());
+        fragments.add(new Fragmentdemo());
+        new FragmentPagerAdapter.Builder(getSupportFragmentManager()).addDatas(fragments).create(viewpager);
         test = new DialogTest();
         test.init(this);
-//        test.showTipDialog(TipDialog.Builder.ICON_TYPE_SUCCESS);
     }
 
     @Override
     protected void initListener() {
+        getSupportFragmentManager();
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
